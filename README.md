@@ -1,5 +1,5 @@
 ### Hi there 👋  
-
+I am an undergraduate student studying at Cornell University
 
 ## Github Stats
 [![huajie-zhong's GitHub stats-Dark](https://github-readme-stats-delta-puce-46.vercel.app/api?username=huajie-zhong&rank_icon=github&show_icons=true&theme=tokyonight#gh-dark-mode-only)](https://github.com/huajie-zhong/github-readme-stats#gh-dark-mode-only) <br>
