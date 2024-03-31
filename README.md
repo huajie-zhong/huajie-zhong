@@ -1,7 +1,7 @@
 ### Hi there 👋  
 I am an undergraduate student studying at Cornell University
 <details><summary></summary>Also a 見習いコーディングの魔術師</details>
-<details><summary></summary>Sakana!<img src="https://github.com/huajie-zhong/huajie-zhong/blob/master/assets/Sakana.gif"> credits: 大伏アオ </details>
+<details><summary></summary>Sakana!<img src="https://github.com/huajie-zhong/huajie-zhong/blob/main/assets/Sakana.gif"> credits: 大伏アオ </details>
 
 ## Github Stats
 [![huajie-zhong's GitHub stats-Dark](https://github-readme-stats-delta-puce-46.vercel.app/api?username=huajie-zhong&rank_icon=github&show_icons=true&theme=tokyonight#gh-dark-mode-only)](https://github.com/huajie-zhong/github-readme-stats#gh-dark-mode-only) <br>
