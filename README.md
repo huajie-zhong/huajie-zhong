@@ -1,7 +1,11 @@
 ### Hi there 👋  
 I am an undergraduate student studying at Cornell University
-<details><summary></summary>Also a 見習いコーディングの魔術師</details>
-<details><summary></summary><b>Sakana!</b><br><img src="https://github.com/huajie-zhong/huajie-zhong/blob/main/assets/Sakana.gif"><br>credits: 大伏アオ </details>
+
+見習いコーディングの魔術師
+<details><summary>🐟</summary><b>Sakana!</b><br><img src="https://github.com/huajie-zhong/huajie-zhong/blob/main/assets/Sakana.gif"><br>credits: 大伏アオ </details>
+
+## Languages and Frameworks that I used / 修得の魔法
+[![My Skills](https://skillicons.dev/icons?i=py,flask,nodejs,postman,java,ocaml,vscode,html,js,css,docker,aws,gcp,git,github,latex,mysql,linux,ubuntu,windows&perline=10&theme=dark)](https://skillicons.dev)
 
 ## Github Stats
 [![huajie-zhong's GitHub stats-Dark](https://github-readme-stats-delta-puce-46.vercel.app/api?username=huajie-zhong&rank_icon=github&show_icons=true&theme=tokyonight#gh-dark-mode-only)](https://github.com/huajie-zhong/github-readme-stats#gh-dark-mode-only) <br>
