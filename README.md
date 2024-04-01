@@ -1,7 +1,9 @@
 ### Hi there 👋  
 I am an undergraduate student studying at Cornell University
 
-見習いコーディングの魔術師
+見習いコーディングの魔術師です
+<details><summary></summary><img src="https://github.com/huajie-zhong/huajie-zhong/blob/main/assets/magic.gif"></details>
+
 <details><summary>🐟</summary><b>Sakana!</b><br><img src="https://github.com/huajie-zhong/huajie-zhong/blob/main/assets/Sakana.gif"><br>credits: 大伏アオ </details>
 
 ## Languages and Frameworks that I used / 修得の魔法
