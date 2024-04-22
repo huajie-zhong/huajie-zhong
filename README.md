@@ -6,7 +6,7 @@ I am an undergraduate student studying at Cornell University
 - 🌱 I’m currently learning Machine Learning, Data analysis, and Web Developments
 
 I am also a 見習いコーディングの魔術師 🪄<br>
-Here is how I cast magic (code) everyday↓ <br>
+Here is how I code (cast magics) everyday↓ <br>
 <img src="https://github.com/huajie-zhong/huajie-zhong/blob/main/assets/magic.gif">
 
 <details><summary>🐟</summary><b>Sakana!</b><br><img src="https://github.com/huajie-zhong/huajie-zhong/blob/main/assets/Sakana.gif"><br>credits: 大伏アオ </details>
