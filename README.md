@@ -26,7 +26,7 @@ Here is how I weave my magic every day: <br>
 [![My Skills](https://skillicons.dev/icons?i=py,flask,nodejs,postman,java,ocaml,vscode,html,js,css,docker,aws,gcp,git,ts,latex,mysql,next,vite,vue,react,mongo,tailwind,c&perline=12&theme=dark)](https://skillicons.dev)
 
 ## 🏰 Magic Prowess & Achievements 
-[![huajie-zhong's GitHub stats-Dark](https://github-readme-stats-delta-puce-46.vercel.app/api?username=huajie-zhong&rank_icon=github&show_icons=true&theme=tokyonight#gh-dark-mode-only)](https://github.com/huajie-zhong/github-readme-stats#gh-dark-mode-only)
+![huajie-zhong's GitHub stats-Dark](https://github-readme-stats-delta-puce-46.vercel.app/api?username=huajie-zhong&rank_icon=github&show_icons=true&theme=tokyonight#gh-dark-mode-only)
 
 ## 📜 Spell Repertoire  
 ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=huajie-zhong&theme=tokyonight&show_icons=true&layout=compact&langs_count=5)
