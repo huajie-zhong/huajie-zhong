@@ -4,16 +4,8 @@ You have ventured into the realm of **Huajie Zhong**, an apprentice of the **Cod
 🔹 **Title🌟**: `Sorcerer of Software`, `FullStack Magician` <br>
 🔹 **Guilds**: Full-Stack Development, Machine Learning, Systems Optimization  <br>
 🔹 **Ongoing Rituals**: [Crafting spells to connect destinated love souls](https://github.com/Perfect-Match-Org/perfect-match-web) <br>
-🔹 **When Off Duty**: Exploring new cultures and lands, gathering wisdom from distant realms. (Recently traveled to **China** and **Japan**! 🌏✨)
+🔹 **When Off Duty**: Exploring new cultures and lands, gathering wisdom from distant realms.
 
-
-<br>
-
-### **>>_Music was humanity’s first magic, followed by art, branching into photography, advanced by computers, and amplified through software_**
-<br>
-
-
-#### "Behold! The art of 見習い電脳魔導技師 (Apprentice Cyber Mage) unfolds before your eyes..."
 
 <div align="center">
 Here is how I weave my magic every day: <br>
