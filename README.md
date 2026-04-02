@@ -4,15 +4,12 @@
 
 </div>
 
----
 
-<br>
 
 > *Full-stack developer who builds web apps by day and grinds anime gacha games by night.*  
-> *Also is a chef who loves playing with food while listening to music.*
-> *Currently at Cornell, always exploring new tech, flavors, and soundtracks.*
+> *Also is a chef who loves playing with food while listening to music.*  
+> *Currently at Cornell, always exploring new tech, flavors, and soundtracks.*  
 
-<br>
 
 ## <img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="28"> &nbsp;Produced With
 
