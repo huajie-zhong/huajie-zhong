@@ -44,21 +44,21 @@
 **`FRONTEND`**
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=react,next,vue,vite,ts,js,html,css,tailwind&theme=dark" />
+  <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=react%2Cnext%2Cvue%2Cvite%2Cts%2Cjs%2Chtml%2Ccss%2Ctailwind&theme=dark" />
   <img src="https://skillicons.dev/icons?i=react,next,vue,vite,ts,js,html,css,tailwind&theme=light" alt="Frontend Skills" />
 </picture>
 
 **`BACKEND`**
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=nodejs,py,java,go,flask,ocaml&theme=dark" />
+  <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=nodejs%2Cpy%2Cjava%2Cgo%2Cflask%2Cocaml&theme=dark" />
   <img src="https://skillicons.dev/icons?i=nodejs,py,java,go,flask,ocaml&theme=light" alt="Backend Skills" />
 </picture>
 
 **`TOOLS & INFRASTRUCTURE`**
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=docker,aws,gcp,git,mysql,mongo,postman,latex,vscode&theme=dark" />
+  <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=docker%2Caws%2Cgcp%2Cgit%2Cmysql%2Cmongo%2Cpostman%2Clatex%2Cvscode&theme=dark" />
   <img src="https://skillicons.dev/icons?i=docker,aws,gcp,git,mysql,mongo,postman,latex,vscode&theme=light" alt="Tools" />
 </picture>
 
