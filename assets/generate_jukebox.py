@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Generate a styled SVG 'Track of the Day' card for the GitHub profile README."""
+"""Generate styled SVG 'Track of the Day' cards (dark + light) for the GitHub profile README."""
 
 import json
 import random
@@ -8,16 +8,20 @@ from datetime import datetime, timezone
 from pathlib import Path
 
 TRACKS_FILE = Path(__file__).parent / "tracks.json"
-OUTPUT_FILE = Path(__file__).parent / "jukebox.svg"
+OUTPUT_DIR = Path(__file__).parent
 
-# Color palette — anime game inspired gradients
-PALETTES = [
-    {"bg1": "#08090e", "bg2": "#0c0f1a", "accent": "#5a7ab0", "accent2": "#3d5a8a", "text": "#d0d8e8", "sub": "#6078a0", "glow": "#4a6a9a"},
-    {"bg1": "#0a0c14", "bg2": "#0e1220", "accent": "#8098c0", "accent2": "#5a7ab0", "text": "#d8dde8", "sub": "#5a6a88", "glow": "#6888b0"},
-    {"bg1": "#090b12", "bg2": "#0d1018", "accent": "#a0b4d0", "accent2": "#7898c0", "text": "#d0d8e8", "sub": "#4a6080", "glow": "#8098c0"},
-    {"bg1": "#080a10", "bg2": "#0c101c", "accent": "#6888b0", "accent2": "#4a6a9a", "text": "#c8d0e0", "sub": "#5a7090", "glow": "#5a7ab0"},
-    {"bg1": "#0a0d16", "bg2": "#0e1220", "accent": "#90a8c8", "accent2": "#6888b0", "text": "#d4dae6", "sub": "#5a6a88", "glow": "#7898c0"},
-]
+PALETTES = {
+    "dark": [
+        {"bg1": "#0e1118", "bg2": "#131a24", "accent": "#7b9ed4", "accent2": "#a89cc8", "text": "#e4e0ec", "sub": "#7882a0", "glow": "#92b4e0"},
+        {"bg1": "#0e1118", "bg2": "#151c28", "accent": "#92b4e0", "accent2": "#7b9ed4", "text": "#e4e0ec", "sub": "#7882a0", "glow": "#a89cc8"},
+        {"bg1": "#0f1220", "bg2": "#131a24", "accent": "#a89cc8", "accent2": "#92b4e0", "text": "#e4e0ec", "sub": "#7882a0", "glow": "#7b9ed4"},
+    ],
+    "light": [
+        {"bg1": "#f6f2ee", "bg2": "#eee8e2", "accent": "#5a7caa", "accent2": "#8070a0", "text": "#2a2a3a", "sub": "#6a6a80", "glow": "#5a7caa"},
+        {"bg1": "#f4f0ec", "bg2": "#ede7e0", "accent": "#8070a0", "accent2": "#5a7caa", "text": "#2a2a3a", "sub": "#6a6a80", "glow": "#8070a0"},
+        {"bg1": "#f6f2ee", "bg2": "#eee8e2", "accent": "#6a88b0", "accent2": "#7868a0", "text": "#2a2a3a", "sub": "#6a6a80", "glow": "#6a88b0"},
+    ],
+}
 
 
 def get_daily_seed():
@@ -31,9 +35,7 @@ def generate_waveform_bars(count=32, seed=0):
     rng = random.Random(seed)
     bars = []
     for i in range(count):
-        # Create a natural-looking waveform with peaks and valleys
         base = rng.random()
-        # Add some structure — peaks tend to cluster
         height = 8 + base * 24
         bars.append(round(height, 1))
     return bars
@@ -51,7 +53,6 @@ def generate_svg(track, palette, seed):
     bars = generate_waveform_bars(40, seed)
     today = datetime.now(timezone.utc).strftime("%B %d, %Y")
 
-    # Truncate long titles/artists for display
     display_title = title if len(title) <= 35 else title[:32] + "..."
     display_artist = artist if len(artist) <= 45 else artist[:42] + "..."
 
@@ -135,14 +136,14 @@ def main():
     rng = random.Random(seed)
 
     track = rng.choice(tracks)
-    palette = rng.choice(PALETTES)
 
-    svg = generate_svg(track, palette, seed)
-
-    with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
-        f.write(svg)
-
-    print(f"Generated jukebox card: {track['title']} by {track['artist']}")
+    for theme in ("dark", "light"):
+        palette = random.Random(seed).choice(PALETTES[theme])
+        svg = generate_svg(track, palette, seed)
+        output_file = OUTPUT_DIR / f"jukebox-{theme}.svg"
+        with open(output_file, "w", encoding="utf-8") as f:
+            f.write(svg)
+        print(f"Generated jukebox-{theme}.svg: {track['title']} by {track['artist']}")
 
 
 if __name__ == "__main__":

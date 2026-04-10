@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="40" viewBox="0 0 800 40">
+  <defs>
+    <linearGradient id="lineGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#5a7caa;stop-opacity:0"/>
+      <stop offset="30%" style="stop-color:#5a7caa;stop-opacity:0.12"/>
+      <stop offset="50%" style="stop-color:#8070a0;stop-opacity:0.2"/>
+      <stop offset="70%" style="stop-color:#5a7caa;stop-opacity:0.12"/>
+      <stop offset="100%" style="stop-color:#5a7caa;stop-opacity:0"/>
+    </linearGradient>
+    <filter id="orbGlow">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <!-- Center line -->
+  <rect x="50" y="19" width="700" height="1" fill="url(#lineGrad)"/>
+
+  <!-- Floating orbs — blue-lavender on light bg -->
+  <circle cx="200" cy="18" r="3.5" fill="#5a7caa" opacity="0" filter="url(#orbGlow)">
+    <animate attributeName="opacity" values="0.1;0.3;0.1" dur="4s" repeatCount="indefinite"/>
+    <animate attributeName="cy" values="20;14;20" dur="4s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="350" cy="22" r="2.5" fill="#8070a0" opacity="0" filter="url(#orbGlow)">
+    <animate attributeName="opacity" values="0.08;0.25;0.08" dur="5s" repeatCount="indefinite" begin="1s"/>
+    <animate attributeName="cy" values="22;16;22" dur="5s" repeatCount="indefinite" begin="1s"/>
+  </circle>
+  <circle cx="400" cy="17" r="4" fill="#5a7caa" opacity="0" filter="url(#orbGlow)">
+    <animate attributeName="opacity" values="0.12;0.35;0.12" dur="4.5s" repeatCount="indefinite" begin="0.5s"/>
+    <animate attributeName="cy" values="19;12;19" dur="4.5s" repeatCount="indefinite" begin="0.5s"/>
+  </circle>
+  <circle cx="480" cy="20" r="2" fill="#8070a0" opacity="0" filter="url(#orbGlow)">
+    <animate attributeName="opacity" values="0.08;0.22;0.08" dur="5.5s" repeatCount="indefinite" begin="2s"/>
+    <animate attributeName="cy" values="21;16;21" dur="5.5s" repeatCount="indefinite" begin="2s"/>
+  </circle>
+  <circle cx="600" cy="19" r="3" fill="#5a7caa" opacity="0" filter="url(#orbGlow)">
+    <animate attributeName="opacity" values="0.1;0.28;0.1" dur="4.2s" repeatCount="indefinite" begin="1.5s"/>
+    <animate attributeName="cy" values="20;14;20" dur="4.2s" repeatCount="indefinite" begin="1.5s"/>
+  </circle>
+</svg>

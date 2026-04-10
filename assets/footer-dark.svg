@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="120" viewBox="0 0 800 120">
+  <defs>
+    <linearGradient id="waveGrad1" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#0e1118"/>
+      <stop offset="30%" style="stop-color:#131a24"/>
+      <stop offset="70%" style="stop-color:#151e2c"/>
+      <stop offset="100%" style="stop-color:#0e1118"/>
+    </linearGradient>
+    <linearGradient id="waveGrad2" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#131a24"/>
+      <stop offset="50%" style="stop-color:#182030"/>
+      <stop offset="100%" style="stop-color:#131a24"/>
+    </linearGradient>
+    <filter id="orbGlow">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <!-- Wave layers -->
+  <path d="M0,60 C100,40 200,75 300,55 C400,35 500,65 600,50 C700,35 750,55 800,45 L800,120 L0,120 Z" fill="url(#waveGrad2)" opacity="0.5"/>
+  <path d="M0,70 C120,50 220,80 340,60 C460,40 540,70 660,55 C740,45 780,60 800,52 L800,120 L0,120 Z" fill="url(#waveGrad1)" opacity="0.7"/>
+  <path d="M0,80 C80,68 180,88 300,72 C420,56 520,78 640,65 C720,56 770,68 800,62 L800,120 L0,120 Z" fill="#0e1118" opacity="0.9"/>
+
+  <!-- Accent line along the top wave -->
+  <path d="M0,80 C80,68 180,88 300,72 C420,56 520,78 640,65 C720,56 770,68 800,62" fill="none" stroke="#a89cc8" stroke-width="1" opacity="0.15"/>
+
+  <!-- Floating orbs rising from the wave -->
+  <circle cx="150" cy="75" r="3" fill="#d4a87c" opacity="0" filter="url(#orbGlow)">
+    <animate attributeName="opacity" values="0;0.25;0.1;0.28;0" dur="7s" repeatCount="indefinite"/>
+    <animate attributeName="cy" values="75;55;65;45;75" dur="7s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="350" cy="65" r="4" fill="#d4a87c" opacity="0" filter="url(#orbGlow)">
+    <animate attributeName="opacity" values="0;0.3;0.12;0.32;0" dur="8s" repeatCount="indefinite" begin="1.5s"/>
+    <animate attributeName="cy" values="65;42;55;35;65" dur="8s" repeatCount="indefinite" begin="1.5s"/>
+  </circle>
+  <circle cx="500" cy="70" r="2.5" fill="#e4c8a0" opacity="0" filter="url(#orbGlow)">
+    <animate attributeName="opacity" values="0;0.2;0.08;0.22;0" dur="6.5s" repeatCount="indefinite" begin="3s"/>
+    <animate attributeName="cy" values="70;52;62;44;70" dur="6.5s" repeatCount="indefinite" begin="3s"/>
+  </circle>
+  <circle cx="650" cy="60" r="3.5" fill="#d4a87c" opacity="0" filter="url(#orbGlow)">
+    <animate attributeName="opacity" values="0;0.22;0.08;0.25;0" dur="7.5s" repeatCount="indefinite" begin="0.5s"/>
+    <animate attributeName="cy" values="60;40;52;32;60" dur="7.5s" repeatCount="indefinite" begin="0.5s"/>
+  </circle>
+  <circle cx="80" cy="70" r="2" fill="#92b4e0" opacity="0" filter="url(#orbGlow)">
+    <animate attributeName="opacity" values="0;0.15;0.05;0.18;0" dur="6s" repeatCount="indefinite" begin="4s"/>
+    <animate attributeName="cy" values="70;55;64;48;70" dur="6s" repeatCount="indefinite" begin="4s"/>
+  </circle>
+
+  <!-- Tiny stars scattered -->
+  <circle cx="200" cy="30" r="0.6" fill="#e4e0ec" opacity="0.3"><animate attributeName="opacity" values="0.3;0.08;0.3" dur="3.5s" repeatCount="indefinite"/></circle>
+  <circle cx="400" cy="20" r="0.5" fill="#a89cc8" opacity="0.25"><animate attributeName="opacity" values="0.25;0.06;0.25" dur="4.2s" repeatCount="indefinite" begin="1s"/></circle>
+  <circle cx="600" cy="25" r="0.7" fill="#7b9ed4" opacity="0.2"><animate attributeName="opacity" values="0.2;0.05;0.2" dur="3.8s" repeatCount="indefinite" begin="2s"/></circle>
+  <circle cx="100" cy="15" r="0.4" fill="#d4a87c" opacity="0.2"><animate attributeName="opacity" values="0.2;0.05;0.2" dur="4.8s" repeatCount="indefinite" begin="0.5s"/></circle>
+  <circle cx="700" cy="18" r="0.5" fill="#92b4e0" opacity="0.25"><animate attributeName="opacity" values="0.25;0.06;0.25" dur="3.3s" repeatCount="indefinite" begin="1.5s"/></circle>
+</svg>
