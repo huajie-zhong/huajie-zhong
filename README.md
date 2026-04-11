@@ -25,7 +25,7 @@
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/huajie-zhong/huajie-zhong/main/assets/bio-dark.svg" />
-  <img src="https://raw.githubusercontent.com/huajie-zhong/huajie-zhong/main/assets/bio-light.svg" width="700" alt="Bio" />
+  <img src="https://raw.githubusercontent.com/huajie-zhong/huajie-zhong/main/assets/bio-light.svg" width="100%" alt="Bio" />
 </picture>
 
 </div>
