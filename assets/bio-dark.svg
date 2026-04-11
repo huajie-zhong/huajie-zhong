@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="700" height="180" viewBox="0 0 700 180">
+<svg xmlns="http://www.w3.org/2000/svg" width="700" height="210" viewBox="0 0 700 210">
   <defs>
     <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
       <stop offset="0%" style="stop-color:#0e1118"/>
@@ -78,6 +78,16 @@
         <animate attributeName="opacity" values="0.15;0.3;0.15" dur="1.2s" repeatCount="indefinite"/>
       </path>
     </g>
+    <!-- Moon icon -->
+    <g id="iconMoon">
+      <path d="M5.5,-4.3 A7,7 0 1,0 5.5,4.3 A5,5 0 0,0 5.5,-4.3Z" fill="none" stroke="#92b4e0" stroke-width="1.2" stroke-linejoin="round"/>
+      <circle cx="-3" cy="-5" r="0.7" fill="#92b4e0" opacity="0.5">
+        <animate attributeName="opacity" values="0.5;0.15;0.5" dur="2.5s" repeatCount="indefinite"/>
+      </circle>
+      <circle cx="-6" cy="1" r="0.5" fill="#92b4e0" opacity="0.4">
+        <animate attributeName="opacity" values="0.4;0.1;0.4" dur="3s" repeatCount="indefinite" begin="0.7s"/>
+      </circle>
+    </g>
     <!-- Graduation cap -->
     <g id="iconCap">
       <polygon points="0,-5 10,0 0,3 -10,0" fill="none" stroke="#92b4e0" stroke-width="1"/>
@@ -87,14 +97,14 @@
   </defs>
 
   <!-- Card background -->
-  <rect x="10" y="10" width="680" height="160" rx="12" fill="url(#bgGrad)"/>
-  <rect x="10" y="10" width="680" height="160" rx="12" fill="none" stroke="url(#borderGrad)" stroke-width="1"/>
+  <rect x="10" y="10" width="680" height="190" rx="12" fill="url(#bgGrad)"/>
+  <rect x="10" y="10" width="680" height="190" rx="12" fill="none" stroke="url(#borderGrad)" stroke-width="1"/>
 
   <!-- Corner ornaments -->
   <path d="M18,18 L18,34 M18,18 L34,18" stroke="#a89cc8" stroke-width="1" opacity="0.25" stroke-linecap="round"/>
   <path d="M682,18 L682,34 M682,18 L666,18" stroke="#a89cc8" stroke-width="1" opacity="0.25" stroke-linecap="round"/>
-  <path d="M18,162 L18,146 M18,162 L34,162" stroke="#7b9ed4" stroke-width="1" opacity="0.2" stroke-linecap="round"/>
-  <path d="M682,162 L682,146 M682,162 L666,162" stroke="#7b9ed4" stroke-width="1" opacity="0.2" stroke-linecap="round"/>
+  <path d="M18,192 L18,176 M18,192 L34,192" stroke="#7b9ed4" stroke-width="1" opacity="0.2" stroke-linecap="round"/>
+  <path d="M682,192 L682,176 M682,192 L666,192" stroke="#7b9ed4" stroke-width="1" opacity="0.2" stroke-linecap="round"/>
 
   <!-- Heartbeat/waveform line running across the card -->
   <path d="M30,106 L180,106 L190,91 L200,121 L210,96 L220,114 L230,106 L670,106" fill="none" stroke="url(#heartbeatLine)" stroke-width="0.8">
@@ -147,17 +157,22 @@
   </g>
   <text x="280" y="134" font-family="'Fira Code', monospace" font-size="10" fill="#a89cc8" opacity="0.4">Roselia · HOYO-MIX · Jay Chou</text>
 
+  <!-- Row 5: Night owl -->
+  <use href="#iconMoon" x="42" y="164" filter="url(#iconGlow)"/>
+  <text x="68" y="168" font-family="'Segoe UI', 'SF Pro Display', -apple-system, sans-serif" font-size="13" fill="#a0aec8" opacity="0.7">Debugging past midnight</text>
+  <text x="250" y="168" font-family="'Fira Code', monospace" font-size="10" fill="#92b4e0" opacity="0.4">git commit -m "fix: 3am edition"</text>
+
   <!-- Floating orb decorations -->
-  <circle cx="650" cy="150" r="3" fill="#d4a87c" opacity="0" filter="url(#orbGlow)">
+  <circle cx="650" cy="180" r="3" fill="#d4a87c" opacity="0" filter="url(#orbGlow)">
     <animate attributeName="opacity" values="0;0.2;0" dur="6s" repeatCount="indefinite"/>
-    <animate attributeName="cy" values="150;144;150" dur="6s" repeatCount="indefinite"/>
+    <animate attributeName="cy" values="180;174;180" dur="6s" repeatCount="indefinite"/>
   </circle>
   <circle cx="620" cy="30" r="2.5" fill="#a89cc8" opacity="0" filter="url(#orbGlow)">
     <animate attributeName="opacity" values="0;0.15;0" dur="7s" repeatCount="indefinite" begin="2s"/>
     <animate attributeName="cy" values="30;25;30" dur="7s" repeatCount="indefinite" begin="2s"/>
   </circle>
-  <circle cx="35" cy="150" r="2" fill="#92b4e0" opacity="0" filter="url(#orbGlow)">
+  <circle cx="35" cy="180" r="2" fill="#92b4e0" opacity="0" filter="url(#orbGlow)">
     <animate attributeName="opacity" values="0;0.12;0" dur="5.5s" repeatCount="indefinite" begin="1s"/>
-    <animate attributeName="cy" values="150;145;150" dur="5.5s" repeatCount="indefinite" begin="1s"/>
+    <animate attributeName="cy" values="180;175;180" dur="5.5s" repeatCount="indefinite" begin="1s"/>
   </circle>
 </svg>
