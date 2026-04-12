@@ -102,17 +102,15 @@
 </picture>
 </a>
 
-<sub>Refreshes daily — powered by GitHub Actions</sub>
+<sub>Refreshes daily</sub>
 
-<br><br>
+<!-- <br><br>
 
 <a href="https://spotify-github-profile.kittinanx.com/api/view?uid=z2387391844&redirect=true">
   <img src="https://spotify-github-profile.kittinanx.com/api/view?uid=z2387391844&cover_image=true&theme=spotify-embed&bar_color=7b9ed4&bar_color_cover=false&mode=dark" alt="Spotify Now Playing" width="350" />
-</a>
+</a> -->
 
 </div>
-
-<br>
 
 <div align="center">
 
