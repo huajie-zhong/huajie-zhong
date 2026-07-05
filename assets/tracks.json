@@ -1,22 +1,46 @@
 [
-  { "title": "Voyaging Star's Farewell", "artist": "Wuthering Waves, Tarokiki" },
+  {
+    "title": "Voyaging Star's Farewell",
+    "artist": "Wuthering Waves, Tarokiki"
+  },
   { "title": "What the Ripple Sees", "artist": "HoYoFair, Mili" },
   { "title": "Perfect Goodbye", "artist": "She Is Legend" },
-  { "title": "Ripples of Past Reverie (English Ver.)", "artist": "HOYO-MIX, Cassie Wei" },
-  { "title": "Vernal Days Dreamed by the Star", "artist": "Wuthering Waves, JixWang, Mika Kobayashi" },
-  { "title": "\u8ff7\u3063\u3061\u3083\u3046\u308f", "artist": "Philosophy no Dance" },
+  {
+    "title": "Ripples of Past Reverie (English Ver.)",
+    "artist": "HOYO-MIX, Cassie Wei"
+  },
+  {
+    "title": "Vernal Days Dreamed by the Star",
+    "artist": "Wuthering Waves, JixWang, Mika Kobayashi"
+  },
+  {
+    "title": "\u8ff7\u3063\u3061\u3083\u3046\u308f",
+    "artist": "Philosophy no Dance"
+  },
   { "title": "Tie Hua Fei", "artist": "Mili, Monster Siren Records" },
   { "title": "\u790e\u306e\u82b1\u51a0", "artist": "Roselia" },
   { "title": "L!!!!GHT", "artist": "Wuthering Waves, Meredith Bull" },
   { "title": "My Color (Acoustic Ver.)", "artist": "Daiki (AWSM.)" },
-  { "title": "Running for Your Life", "artist": "Wuthering Waves, Casey Lee Williams" },
+  {
+    "title": "Running for Your Life",
+    "artist": "Wuthering Waves, Casey Lee Williams"
+  },
   { "title": "Sprechchor", "artist": "Roselia" },
-  { "title": "\u78a7\u3044\u77b3\u306e\u4e2d\u306b", "artist": "Ave Mujica, Monster Siren Records" },
-  { "title": "\u967d\u306e\u3055\u3059\u5411\u3053\u3046\u3078", "artist": "She Is Legend" },
+  {
+    "title": "\u78a7\u3044\u77b3\u306e\u4e2d\u306b",
+    "artist": "Ave Mujica, Monster Siren Records"
+  },
+  {
+    "title": "\u967d\u306e\u3055\u3059\u5411\u3053\u3046\u3078",
+    "artist": "She Is Legend"
+  },
   { "title": "Asian Soul", "artist": "Jun Maeda, Yanaginagi" },
   { "title": "Beautiful World (Da Capo Version)", "artist": "Hikaru Utada" },
   { "title": "Proi Proi", "artist": "HOYO-MIX, Nida" },
-  { "title": "\u661f\u70ac\u4e0d\u7184", "artist": "Wuthering Waves, Fleet Snowfluff" },
+  {
+    "title": "\u661f\u70ac\u4e0d\u7184",
+    "artist": "Wuthering Waves, Fleet Snowfluff"
+  },
   { "title": "\u685c\u6d41\u3057", "artist": "Hikaru Utada" },
   { "title": "\u554a\uff01\u7f8e\u4e3d\u5361\u6d1b", "artist": "ChiliChill" },
   { "title": "02", "artist": "Queen Bee" },
@@ -24,23 +48,41 @@
   { "title": "Test Me", "artist": "Chanmina" },
   { "title": "\u661f\u6708\u795e\u8a71", "artist": "\u91d1\u838e" },
   { "title": "Paper Plane", "artist": "Wuthering Waves, Fleet Snowfluff" },
-  { "title": "Through Tears, We Rise", "artist": "Alichey (CV: Azusa Tachibana)" },
+  {
+    "title": "Through Tears, We Rise",
+    "artist": "Alichey (CV: Azusa Tachibana)"
+  },
   { "title": "Floral Haven", "artist": "Roselia" },
-  { "title": "Sailing Ship (Broken Ver.)", "artist": "\u9ebb\u679d\u51c6, Yanaginagi" },
+  {
+    "title": "Sailing Ship (Broken Ver.)",
+    "artist": "\u9ebb\u679d\u51c6, Yanaginagi"
+  },
   { "title": "Requiem for Fate", "artist": "Roselia" },
   { "title": "DamiDami", "artist": "Sihan, S\u0101n-Z, HOYO-MIX" },
   { "title": "Georgette Me, Georgette You", "artist": "Ave Mujica" },
   { "title": "White Love", "artist": "SPEED" },
   { "title": "Afterglow", "artist": "Xai" },
-  { "title": "Mumeika", "artist": "Houkiboshi (CV. Yuki Nakashima), Visual Arts / Key" },
-  { "title": "Void", "artist": "Nina Iseri, Momoka Kawarag - Togenashi Togeari" },
+  {
+    "title": "Mumeika",
+    "artist": "Houkiboshi (CV. Yuki Nakashima), Visual Arts / Key"
+  },
+  {
+    "title": "Void",
+    "artist": "Nina Iseri, Momoka Kawarag - Togenashi Togeari"
+  },
   { "title": "\u65b0\u5730\u7403", "artist": "JJ Lin" },
   { "title": "\u60c5\u975e\u5f97\u5df2", "artist": "Harlem Yu" },
   { "title": "\u6dda\u6a4b", "artist": "Wu Bai" },
   { "title": "\u30a8\u30ac\u30af\u30df\u30e9\u30a4", "artist": "MyGO!!!!!" },
-  { "title": "\u5fd8\u308c\u3066\u3084\u3089\u306a\u3044", "artist": "Kessoku Band" },
+  {
+    "title": "\u5fd8\u308c\u3066\u3084\u3089\u306a\u3044",
+    "artist": "Kessoku Band"
+  },
   { "title": "\u5c0f\u93ae\u59d1\u5a18", "artist": "David Tao" },
-  { "title": "\u60aa\u9b54\u306e\u5b50 (Cover)", "artist": "Roselia, \u30ec\u30a4\u30e4 (CV: Raychell)" },
+  {
+    "title": "\u60aa\u9b54\u306e\u5b50 (Cover)",
+    "artist": "Roselia, \u30ec\u30a4\u30e4 (CV: Raychell)"
+  },
   { "title": "Sunshine", "artist": "OneRepublic" },
   { "title": "\u8861\u5c71\u8def\u5b9b\u5e73\u8def", "artist": "ChiliChill" },
   { "title": "Oort no Kumo", "artist": "Jun Maeda, Yanaginagi" },
@@ -56,7 +98,10 @@
   { "title": "\u6162\u51b7", "artist": "FISH LEONG" },
   { "title": "\u5e36\u6211\u8d70", "artist": "RAINIE YANG" },
   { "title": "\u6591\u9a6c\uff0c\u6591\u9a6c", "artist": "\u5b8b\u51ac\u91ce" },
-  { "title": "HOMECOMING STAR FROM THE UNBOUND", "artist": "WUTHERING WAVES, JIXWANG, R!N" },
+  {
+    "title": "HOMECOMING STAR FROM THE UNBOUND",
+    "artist": "WUTHERING WAVES, JIXWANG, R!N"
+  },
   { "title": "BREAK YOUR DESIRE", "artist": "ROSELIA" },
   { "title": "LYDIA", "artist": "F.I.R." },
   { "title": "\u666e\u901a\u670b\u53cb", "artist": "DAVID TAO" },
@@ -65,26 +110,126 @@
   { "title": "\u611b\u6211\u9084\u662f\u4ed6", "artist": "DAVID TAO" },
   { "title": "THE HISTORIC...", "artist": "ROSELIA" },
   { "title": "\u767d\u9d3f", "artist": "WU BAI" },
-  { "title": "HEART OF LAHAI-ROI", "artist": "WUTHERING WAVES, BAITIAN, VICTOR BORBA, CASEY LEE WILLIAMS" },
-  { "title": "\u9060\u304f\u306e\u5b50\u5b88\u306e\u5504", "artist": "\u5927\u539f\u3086\u3044\u5b50" },
-  { "title": "CYCLE OF SORROW", "artist": "\u30c0\u30a4\u30e4\u30e2\u30f3\u30c9\u30c0\u30b9\u30c8" },
+  {
+    "title": "HEART OF LAHAI-ROI",
+    "artist": "WUTHERING WAVES, BAITIAN, VICTOR BORBA, CASEY LEE WILLIAMS"
+  },
+  {
+    "title": "\u9060\u304f\u306e\u5b50\u5b88\u306e\u5504",
+    "artist": "\u5927\u539f\u3086\u3044\u5b50"
+  },
+  {
+    "title": "CYCLE OF SORROW",
+    "artist": "\u30c0\u30a4\u30e4\u30e2\u30f3\u30c9\u30c0\u30b9\u30c8"
+  },
   { "title": "IMPRISONED XII", "artist": "AVE MUJICA" },
   { "title": "SWAY TO MY BEAT IN COSMOS", "artist": "ROBIN, HOYO-MIX, CHEVY" },
-  { "title": "REVERIES IN THE CRIMSON BEYOND", "artist": "WUTHERING WAVES, JIXWANG, VISION SOUND" },
-  { "title": "\u6211\u662f\u771f\u7684\u611b\u4e0a\u4f60 - \u570b", "artist": "DAVE WANG" },
+  {
+    "title": "REVERIES IN THE CRIMSON BEYOND",
+    "artist": "WUTHERING WAVES, JIXWANG, VISION SOUND"
+  },
+  {
+    "title": "\u6211\u662f\u771f\u7684\u611b\u4e0a\u4f60 - \u570b",
+    "artist": "DAVE WANG"
+  },
   { "title": "\u6708\u534a\u5c0f\u591c\u66f2", "artist": "HACKEN LEE" },
   { "title": "\u90a3\u5929\u4e0b\u96e8\u4e86", "artist": "JAY CHOU" },
-  { "title": "UNWRITTEN IN THE STARS", "artist": "WUTHERING WAVES, \u5f00\u5fc3\u86d9\u86d9" },
-  { "title": "\u9752\u3044\u6625\u3068\u897f\u306e\u7a7a", "artist": "KESSOKU BAND" },
+  {
+    "title": "UNWRITTEN IN THE STARS",
+    "artist": "WUTHERING WAVES, \u5f00\u5fc3\u86d9\u86d9"
+  },
+  {
+    "title": "\u9752\u3044\u6625\u3068\u897f\u306e\u7a7a",
+    "artist": "KESSOKU BAND"
+  },
   { "title": "AFTER ALL", "artist": "\u4e0a\u539f\u308c\u306a" },
   { "title": "\u5e74\u8f2a\u8aaa", "artist": "RAINIE YANG" },
   { "title": "\u53ef\u60dc\u6c92\u5982\u679c", "artist": "JJ LIN" },
-  { "title": "\u4e00\u5834\u904a\u6232\u4e00\u5834\u5922", "artist": "DAVE WANG" },
+  {
+    "title": "\u4e00\u5834\u904a\u6232\u4e00\u5834\u5922",
+    "artist": "DAVE WANG"
+  },
   { "title": "SHOW SLAY SHOW", "artist": "CHILICHILL" },
-  { "title": "\u71b1\u8272\u30b9\u30bf\u30fc\u30de\u30a4\u30f3", "artist": "ROSELIA" },
-  { "title": "\u821e\u3044\u843d\u3061\u308b\u96ea\u306e\u3088\u3046\u306b", "artist": "\u5c0f\u6728\u66fd\u96ea\u83dc" },
-  { "title": "\u71c3\u3048\u304b\u3059\u306e\u8cdb\u6b4c", "artist": "\u9ebb\u679d\u51c6, NAGI YANAGI" },
+  {
+    "title": "\u71b1\u8272\u30b9\u30bf\u30fc\u30de\u30a4\u30f3",
+    "artist": "ROSELIA"
+  },
+  {
+    "title": "\u821e\u3044\u843d\u3061\u308b\u96ea\u306e\u3088\u3046\u306b",
+    "artist": "\u5c0f\u6728\u66fd\u96ea\u83dc"
+  },
+  {
+    "title": "\u71c3\u3048\u304b\u3059\u306e\u8cdb\u6b4c",
+    "artist": "\u9ebb\u679d\u51c6, NAGI YANAGI"
+  },
   { "title": "\u5b64\u96db", "artist": "AGA" },
   { "title": "KEEP HEART", "artist": "ROSELIA" },
-  { "title": "\u30c0\u30ec\u30e2", "artist": "TOGENASHI TOGEARI" }
+  { "title": "\u30c0\u30ec\u30e2", "artist": "TOGENASHI TOGEARI" },
+  { "title": "\u5fd7\u94ed", "artist": "\u72ac\u5112\u4e50\u961f" },
+  {
+    "title": "A SMALL MIRACLE",
+    "artist": "WUTHERING WAVES, JIXWANG, FLEET SNOWFLUFF"
+  },
+  { "title": "BIRDS OF A FEATHER", "artist": "BILLIE EILISH" },
+  { "title": "\u843d\u82b1\u60c5", "artist": "\u4e03\u6735\u7ec4\u5408" },
+  { "title": "TAKE OFF", "artist": "DAIKI(AWSM.)" },
+  { "title": "\u958b\u59cb\u61c2\u4e86", "artist": "STEFANIE SUN" },
+  { "title": "\u5927\u6d77", "artist": "ZHANG YU SHENG" },
+  { "title": "\u7279\u5225\u7684\u4eba", "artist": "KHALIL FONG" },
+  { "title": "\u6211\u61f7\u5ff5\u7684", "artist": "STEFANIE SUN" },
+  { "title": "\u5225\u6015\u6211\u50b7\u5fc3", "artist": "JEFF CHANG" },
+  {
+    "title": "\u534a\u53e5\u518d\u898b",
+    "artist": "FROM \"AT CAF\u00c9 6\" / MAIN THEME SONG - STEFANIE SUN"
+  },
+  { "title": "\u6b90\u82e5\u62c9", "artist": "ANGELA CHANG" },
+  { "title": "\u7da0\u5149", "artist": "STEFANIE SUN" },
+  { "title": "\u8774\u8776", "artist": "DAVID TAO" },
+  { "title": "\u8a0e\u53ad\u7d05\u6a13\u5922", "artist": "DAVID TAO" },
+  { "title": "SANTA TELL ME", "artist": "ARIANA GRANDE" },
+  { "title": "\u98db\u6a5f\u5834\u768410:30", "artist": "DAVID TAO" },
+  { "title": "PASSIONATE ANTHEM", "artist": "ROSELIA" },
+  {
+    "title": "\u4e16\u754c\u3067\u4e00\u756a\u8fd1\u304f\u306b\u5c45\u308b\u306e\u306b",
+    "artist": "KANO"
+  },
+  {
+    "title": "\u5929\u7403(\u305d\u3089)\u306eM\u00daSICA",
+    "artist": "AVE MUJICA"
+  },
+  { "title": "戀愛ING", "artist": "MAYDAY" },
+  {
+    "title": "\u967d\u3060\u307e\u308a\u30ed\u30fc\u30c9\u30ca\u30a4\u30c8",
+    "artist": "ROSELIA"
+  },
+  {
+    "title": "ETERNAL FLAME \u301c\u7a7a\u306e\u7bb1\u301c",
+    "artist": "\u30c0\u30a4\u30e4\u30e2\u30f3\u30c9\u30c0\u30b9\u30c8"
+  },
+  { "title": "\u518d\u5ea6\u91cd\u76f8\u9022", "artist": "WU BAI" },
+  { "title": "\u631e\u5a01\u7684\u68ee\u6797", "artist": "WU BAI" },
+  { "title": "\u95dc\u8272\u30a2\u30ea\u30b9", "artist": "KANO" },
+  {
+    "title": "WHITE ALBUM LIVE AT CAMPUS FES",
+    "artist": "\u5c0f\u6728\u66fd\u96ea\u83dc"
+  },
+  { "title": "\u7121\u8def\u77e2", "artist": "MYGO!!!!!" },
+  { "title": "\u5c0f\u93ae\u59d1\u5a18", "artist": "DAVID TAO" },
+  { "title": "\u7b49\u4f60\u4e0b\u8ab2", "artist": "JAY CHOU, GARY YANG" },
+  {
+    "title": "\u4eca\u3001\u50d5\u3001\u30a2\u30f3\u30c0\u30fc\u30b0\u30e9\u30a6\u30f3\u30c9\u304b\u3089",
+    "artist": "KESSOKU BAND"
+  },
+  { "title": "\u5f8c\u4f86\u7684\u6211\u5011", "artist": "MAYDAY" },
+  {
+    "title": "\u4f60\u600e\u9ebc\u6368\u5f97\u6211\u96e3\u904e",
+    "artist": "\u9ec3\u54c1\u6e90"
+  },
+  { "title": "DETERMINATION SYMPHONY", "artist": "ROSELIA" },
+  { "title": "反方向的鐘", "artist": "JAY CHOU" },
+  { "title": "\u5fc3\u7246", "artist": "JJ LIN" },
+  {
+    "title": "\u4eba\u751f\u30d9\u30ea\u30fc\u30cf\u30fc\u30c9\u30e2\u30fc\u30c9",
+    "artist": "KANO"
+  }
 ]
